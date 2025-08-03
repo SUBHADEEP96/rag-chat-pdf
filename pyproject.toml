@@ -1,0 +1,12 @@
+[project]
+name = "chat-w-pdf"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "faiss-cpu>=1.11.0.post1",
+    "langchain-community>=0.3.27",
+    "langchain-openai>=0.3.28",
+    "pypdf>=5.9.0",
+]
